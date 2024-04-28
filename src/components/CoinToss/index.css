@@ -1,0 +1,64 @@
+.bg-container {
+  background-image: linear-gradient(#e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #a35200;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.paragraph {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.image {
+  width: 200px;
+}
+
+.toss-button {
+  color: #a35200;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  background-color: #f9d423;
+  border-radius: 15px;
+  border-width: 0px;
+  width: 90px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.list-item {
+  color: #475569;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  list-style: none;
+}
